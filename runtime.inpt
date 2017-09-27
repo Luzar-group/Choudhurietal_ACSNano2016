@@ -1,0 +1,76 @@
+140000      Number of steps in the run.
+300.000     Translational temperature.
+1         Number of ionic molecular units.
+5           Number of species.
+1	    Number of anion species
+2	    Number of sepcies allowed to move
+O          Name of Species 1
+2197          Number of species of type 1.
+-0.8476        Permanent charge on type 1 ions.
+15.9994   Atomic mass of type 1.
+.false.      Polarizable ?
+H           Name of species 2
+4394          Number of species of type 2.
+0.4238        Permanent charge on type 2 ions.
+1.008     Atomic mass of type 2.
+.false.      Polarizable ?
+PtT       Name of species 3
+160          Number of species of type 3
+.true.      constant potential? (if .false. then constant charge)
+0.00        wall potential (if previous line .false. then this is the charge)
+195.08     Atomic mass of type 3.
+PtE       Name of species 4
+499       Number of species of type 4
+.true.      constant potential? (if .false. then constant charge)
+0.00        wall potential (if previous line .false. then this is the charge)
+195.08      Atomic mass of type 4.
+PtI       Name of species 5
+3091          Number of species of type 5
+.false.      constant potential? (if .false. then constant charge)
+0.00        wall potential (if previous line .false. then this is the charge)
+195.08      Atomic mass of type 5.
+5.0d-8     electrode charge convergence parameter
+82.6828d0      Timestep (a.u.).
+rim                    Type of run (rim,dippim,quadpim)
+epp                    Type of run (epp,cim,aim)
+.false.     Conjugate gradient minimisation?
+.true.      Restart ? 
+.true.     Set up velocities?
+.false.     Velocity rescale prior to main run ?
+.false.     Random displacement of ions.
+.true.      Move ions?
+.false.     Do a dynamical matrix calculation?
+.false.     Relax input structure?
+.false.	    COM reset?.false..false..true.200
+200        Number of steps inbetween periodic output (energies).
+200         Number of steps inbetween periodic output (velocities etc).
+200        Number of steps inbetween periodic output (frictions etc).
+200        Number of steps inbetween periodic output (pressure etc).
+20000         Number of steps inbetween periodic output (restart file).
+2000		Number of steps between forces output
+2000		Number of steps between wall forces output
+500	    Number of bins
+1000000     Number of steps inbetween rdf call in main loop.
+1           Number of ions to monitor.
+1           Ion number to monitor. (1)
+8.0000d0      eta = <x>/boxlen.
+92.000d0      rcut (au).
+1.0d-7      convergence parameter.
+1.0d0       ewald convergence parameter
+18.8972d0    rcut short-range
+1.0d0	    hfac
+1.0         skmaxz
+1.0         sdh
+.false.      Nose-Hoover thermostat? (if true then enter a relaxation time) 
+.false.      Periodic rescale of temperature? 
+.false.     Periodic re-annealing?
+.false.      Isotropic barostat? 10000.d0 0.0d0
+.false.     Anisotropic barostat?
+.true.     Orthorhombic cell?
+.false.     EFG calc. ?
+500        nbin
+.false.     Dump msd displacements? (if true one more line) 500         msdcalltime
+neutral        Enforce system neutrality when calculating wall charges
+shaketol 1e-6
+wall
+tspring
